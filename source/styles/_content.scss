@@ -1,0 +1,54 @@
+/* ---- BREADCRUMBS ----*/
+
+.b-breadcrumbs {
+	
+}
+
+.breadcrumbs-item {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 11px;
+	vertical-align: middle;
+	color: #fa3f37;
+	a {
+		color: #fa3f37;
+	}
+	&:not(:first-child):before {
+			font-family: FontAwesome;
+			content: "\f178";
+			width: 16px;
+			height: 7px;
+			margin-right: 5px;
+			margin-left: 7px;
+			display: inline-block;
+	}
+}
+
+/* ---- TITLE ---- */
+
+.title {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: normal;
+	color: #2e2e2e;
+}
+
+/* ---- CONTENT ---- */
+
+.content-wrapper {
+	.container {
+		background-color: #fff;
+	}
+}
+
+.categories-item__link-icon {
+	display: inline-block;
+}
+
+.categories-item__link-text {
+	display: inline-block;
+}
+
+.categories-item__amount {
+	display: inline-block;
+}

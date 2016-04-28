@@ -1,0 +1,7 @@
+{
+  "name": "psd-to-html",
+  "dependencies": {
+    "font-awesome": "^4.6.1",
+    "normalize-scss": "normalize.scss#^4.1.0"
+  }
+}

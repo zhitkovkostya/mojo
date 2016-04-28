@@ -1,0 +1,18 @@
+@mixin clearfix {
+	&:after, &:before {
+		display: table;
+		content: " ";
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+@mixin inline-justify {
+	text-align: justify;
+	&:after {
+		content: " ";
+		display: inline-block;
+		width: 100%;
+	}
+}

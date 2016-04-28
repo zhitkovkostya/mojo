@@ -1,0 +1,94 @@
+doctype html
+html(lang="ru")
+head
+	meta(charset="UTF-8")
+	title Document
+	link(rel="stylesheet", href="styles/main.css")
+body
+	// Main
+	.wrapper
+		// Header
+		header.header
+			.container
+				.header-top
+					.header__logo
+						a(href="#").b-logo
+							img.logo__pic(src="images/logo.png", alt="Logo")
+					.header__search
+						form.b-search
+							input.search__input(type="text", placeholder="Поиск")
+							button.search__submit(type="submit")
+								span.fa.fa-search
+					.header__menu
+						ul.b-menu
+							li.menu-item
+								a(href="#").menu-item__link
+									span.menu-item__link-icon
+									span.menu-item__link-text Карта проезда
+							li.menu-item
+								a(href="#").menu-item__link
+									span.menu-item__link-icon
+									span.menu-item__link-text История заказов
+							li.menu-item
+								a(href="#").menu-item__link.menu-item__link-iconed
+									span.menu-item__link-icon
+										i.fa.fa-shopping-cart 
+									span.menu-item__link-text Корзина
+				nav.header__nav
+					ul.b-nav
+						li.nav-item
+							a(href="#").nav-item__link
+								span.nav-item__link-icon
+									i.fa.fa-tablet.fa-3x
+								span.nav-item__link-text Планщеты
+						li.nav-item
+							a(href="#").nav-item__link
+								span.nav-item__link-icon
+									i.fa.fa-desktop.fa-3x
+								span.nav-item__link-text Персональные компьютеры
+						li.nav-item
+							a(href="#").nav-item__link
+								span.nav-item__link-icon
+									i.fa.fa-mobile.fa-3x
+								span.nav-item__link-text Мобильные устройства
+						li.nav-item
+							a(href="#").nav-item__link
+								span.nav-item__link-icon
+									i.fa.fa-laptop.fa-3x
+								span.nav-item__link-text Ноутбуки
+						li.nav-item
+							a(href="#").nav-item__link
+								span.nav-item__link-icon
+									i.fa.fa-headphones.fa-3x
+								span.nav-item__link-text Аксессуары
+						li.nav-item
+							a(href="#").nav-item__link
+								span.nav-item__link-icon
+									i.fa.fa-home.fa-3x
+								span.nav-item__link-text Бытовая техника
+		section.breadcrumbs
+			.container
+				ul.b-breadcrumbs
+					li.breadcrumbs-item
+						a.breadcrumbs-item__link(href="#") Главная
+					li.breadcrumbs-item
+						a.breadcrumbs-item__link(href="#") Мобильные устройства
+		section.page-title
+			.container
+				h1.title Мобильные устройства
+		section.content-wrapper
+			.container
+				aside.sidebar
+					ul.categories
+						li.categories-item
+							a(href="#").categories-item__link
+								span.categories-item__link-icon
+									i.fa.fa-mobile
+								span.categories-item__link-text Мобильные телефоны
+							span.categories-item__amount 85
+				main.content
+		.empty
+	// Footer
+	footer.footer
+		.footer__address My Address
+		.footer__copyright my@email.com

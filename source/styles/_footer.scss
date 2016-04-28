@@ -1,0 +1,9 @@
+.footer {
+	position: relative;
+	height: $h-footer;
+	margin-top: -($h-footer);
+	display: block;
+	&__address {
+		margin: 0 auto;
+	}
+}
