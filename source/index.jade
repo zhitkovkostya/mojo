@@ -79,16 +79,125 @@ body
 		section.content-wrapper
 			.container
 				aside.sidebar
-					ul.categories
+					ul.b-categories
 						li.categories-item
 							a(href="#").categories-item__link
 								span.categories-item__link-icon
-									i.fa.fa-mobile
+									i.fa.fa-mobile.fa-2x
+								span.categories-item__link-text Мобильные телефоны
+							span.categories-item__amount 85
+						li.categories-item
+							a(href="#").categories-item__link
+								span.categories-item__link-icon
+									i.fa.fa-mobile.fa-2x
+								span.categories-item__link-text Мобильные телефоны
+							span.categories-item__amount 85
+						li.categories-item
+							a(href="#").categories-item__link
+								span.categories-item__link-icon
+									i.fa.fa-mobile.fa-2x
 								span.categories-item__link-text Мобильные телефоны
 							span.categories-item__amount 85
 				main.content
+					ul.products
+						li.products-item
+							.slideshow
+								.slideshow__display
+									img.slideshow__display-img(src="images/iphone6s.jpg", alt="")
+								ul.slideshow__thumbs
+									li.slideshow__thumbs-item
+										a(href="#").slideshow__thumbs-link
+											img.slideshow__thumbs-img(src="images/iphone6s.jpg", alt="")
+									li.slideshow__thumbs-item
+										a(href="#").slideshow__thumbs-link
+											img.slideshow__thumbs-img(src="images/iphone6s.jpg", alt="")
+									li.slideshow__thumbs-item
+										a(href="#").slideshow__thumbs-link
+											img.slideshow__thumbs-img(src="images/iphone6s.jpg", alt="")
+									li.slideshow__thumbs-item
+										a(href="#").slideshow__thumbs-link
+											img.slideshow__thumbs-img(src="images/iphone6s.jpg", alt="")
+							.description
+								h2.products__title iPhone 6s 128Gb
+								.products__about
+									ul
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+							.price
+								.price-inner
+									.price-amount 76 990 руб.
+									a(href="#").buy Купить
+						li.products-item
+							.slideshow
+								.slideshow__display
+									img.slideshow__display-img(src="images/iphone6s.jpg", alt="")
+								ul.slideshow__thumbs
+									li.slideshow__thumbs-item
+										a(href="#").slideshow__thumbs-link
+											img.slideshow__thumbs-img(src="images/iphone6s.jpg", alt="")
+									li.slideshow__thumbs-item
+										a(href="#").slideshow__thumbs-link
+											img.slideshow__thumbs-img(src="images/iphone6s.jpg", alt="")
+									li.slideshow__thumbs-item
+										a(href="#").slideshow__thumbs-link
+											img.slideshow__thumbs-img(src="images/iphone6s.jpg", alt="")
+									li.slideshow__thumbs-item
+										a(href="#").slideshow__thumbs-link
+											img.slideshow__thumbs-img(src="images/iphone6s.jpg", alt="")
+							.description
+								h2.products__title iPhone 6s 128Gb
+								.products__about
+									ul
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+										li Диагональ дисплея (дюйм): 5.5
+							.price
+								.price-inner
+									.price-amount 76 990 руб.
+									a(href="#").buy Купить
+		section.pagination
+			.container
+				ul.pagination-list
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link
+							i.fa.fa-arrow-left
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link_active 1
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link 2
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link 3
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link 4
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link 5
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link 6
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link 7
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link 8
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link 9
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link 10
+					li.pagination-list__item
+						a(href="#").pagination-list__item-link_active
+							i.fa.fa-arrow-right
 		.empty
 	// Footer
 	footer.footer
-		.footer__address My Address
-		.footer__copyright my@email.com
+		.container
+			.footer__address Konstantin Zhitkov
+			.footer__copyright zhitkovkostya@gmail.com
